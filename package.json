@@ -1,0 +1,17 @@
+{
+  "name": "name",
+  "description": "description",
+  "authors": "author",
+  "version": "1.0.0",
+  "main": "pathToMain",
+  "scripts": {
+    "build": "npx tailwindcss -i ./source/input.css -o ./public/style.css --watch",
+    "prettier": "npx prettier --write ./public/*.html"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.9"
+  }
+}
